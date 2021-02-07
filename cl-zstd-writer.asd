@@ -6,6 +6,6 @@
   :license  "Specify license here"
   :version "0.0.1"
   :serial t
-  :depends-on (#:cffi)
+  :depends-on (#:cffi #:static-vectors)
   :components ((:file "package")
                (:file "cl-zstd-writer")))

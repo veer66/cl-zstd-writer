@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
 (defpackage #:cl-zstd-writer
-  (:use #:cl))
+  (:use #:cl #:cffi #:static-vectors))
