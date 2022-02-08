@@ -2,9 +2,9 @@
 
 (asdf:defsystem #:cl-zstd-writer
   :description "Describe cl-zstd-writer here"
-  :author "Your Name <your.name@example.com>"
+  :author "Vee Satayamas <your.name@example.com>"
   :license  "Specify license here"
-  :version "0.0.1"
+  :version "0.2.0"
   :serial t
   :depends-on (#:cffi #:static-vectors)
   :components ((:file "package")
